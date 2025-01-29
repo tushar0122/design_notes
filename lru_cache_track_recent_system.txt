@@ -1,0 +1,1 @@
+Q1: Design a system to track recently viewed items (with int limit initialized with class) for customers, similar to an LRU cache. I implemented the core part (O(1) for adding items) but couldn't complete return function but explained my thoughts and runtime (O(limit)).

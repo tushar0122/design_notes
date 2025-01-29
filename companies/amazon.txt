@@ -1,1 +1,21 @@
+26th Jan
 https://leetcode.com/discuss/interview-question/6329641/Amazon-SDE-2-Onsite-USA
+
+
+online assessment
+phone interview 
+4/5 rounds
+
+lp + technical 
+
+against amazon bar 
+preparing enough
+
+quality over quantity
+explain first 
+optimize 
+comment 
+check all possible cases 
+
+not
+so many candidates 
