@@ -1,0 +1,42 @@
+Performance
+    => Minimum latency 
+
+Ways for High Performance
+    => Multithreading
+    => Asynchronous 
+    => Distributed System 
+    => Load Balancing
+    => Caching 
+    => Pagination
+    => Indexing
+
+Scalability
+    => Can handle large number of request
+
+Ways for Scalable
+    => Horizontal Scaling 
+    => Vertical Scaling 
+
+Security 
+    => Prevent unauthorized
+
+
+Reliability
+    => System should work properly in all conditions 
+
+Ways for Reliabile
+    => Making system software reliable involves a combination of good design principles, robust engineering practices, and rigorous testing. 
+        => Use Proper Design patterns & SOLID principles while designing the system
+    => Robust Error Handling
+        => Implement proper exception handling to prevent crashes.
+        => Use logging and monitoring to detect and respond to failures quickly.
+        => Provide meaningful error messages for debugging.
+    => Automated Testing & Continuous Integration
+        => Write unit tests, integration tests, and system tests.
+        => Use fuzz testing and chaos engineering to identify weak points.
+        => Employ CI/CD pipelines for consistent deployments.
+    => Security & Data Integrity
+        => Implement secure authentication & authorization mechanisms.
+        => Use encryption and hashing for sensitive data.
+        => Regularly perform security audits and penetration testing.
+    => Scalability & Performance Optimization

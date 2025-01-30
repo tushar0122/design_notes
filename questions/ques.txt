@@ -1,0 +1,5 @@
+Q1: Design a system to track recently viewed items (with int limit initialized with class) for customers, similar to an LRU cache. I implemented the core part (O(1) for adding items) but couldn't complete return function but explained my thoughts and runtime (O(limit)).
+
+Q1: Write a Notification System that validates a request of notification to be valid. The problem was vague, so I spent too much time trying to get constraints and problem statement as a coding problem. While he wanted an OOPs design from me but did not even utter the word "Design" or "OOPs" in whole interview. I wrote whole lot of code from what I could scope out and it was syntactically correct. I only realized late in last 10 mins that it was an OOPs question, after few asks that he wrote down, so I rushed a basic design for validating notification JSONs.
+
+

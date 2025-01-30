@@ -1,0 +1,13 @@
+Functional Requirements 
+    => Send Notifications (can be sent via different channels Email, SMS, Push)
+    => Validation Notifications Request Before Sending 
+    => Can be of different types (success, warning, alert)
+    => Scheduled Notifications
+    => Bulk Notifications
+
+Non-Functional Requirements
+    => Scalability: Should handle multiple notifications efficiently.
+    => Extensibility: Easily add new notification types in the future.
+    => Reliability: Ensure notifications are sent successfully.
+    => Security: Prevent unauthorized access to send notifications.
+    => Performance: Minimize latency when sending notifications.
