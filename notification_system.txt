@@ -11,3 +11,21 @@ Non-Functional Requirements
     => Reliability: Ensure notifications are sent successfully.
     => Security: Prevent unauthorized access to send notifications.
     => Performance: Minimize latency when sending notifications.
+
+Designing
+    => API to handle request 
+    => Service to validate request 
+    => Service to send notification
+    => Assume Email Notification
+
+Notification
+
+EmailNotification
+    validate emailAddress
+
+SMS Notification
+    validate number 
+
+Push Notification
+
+NotificationSender
