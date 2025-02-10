@@ -1,0 +1,39 @@
+Comments & Rating 
+Recommendation System
+
+Non Functional Requirement
+    => Authentication
+
+Highly Concurrent 
+    => Load Balancing 
+        => Consistent Hashing 
+        => Round Robin 
+        => Weighted Round Robin 
+        => Least Connection 
+    => CDN 
+        => Cache static things 
+    => Pod 
+        => Horizontally Scaling 
+    => Search 
+        => Elastic Search
+    => Cache 
+        => 
+    => DB 
+        => RDBMS 
+            => Country 
+            => State 
+            => City 
+            => Theaters 
+            => Cinema Hall 
+            => Seats 
+            => Transaction 
+            => Users 
+            => Sharding 
+            => Slave => Read 
+            => Master => Write 
+        => NoSQL  
+            => Movies Information 
+            => Comments 
+            => Reviews 
+    => Payment Gateway 
+        => 

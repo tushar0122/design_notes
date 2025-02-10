@@ -1,0 +1,39 @@
+1. Requirement Gathering 
+Usecases and Constraints 
+Usecases 
+    => Main Functional Requirements
+    Admin
+        => Can have updated movies, Cinema hall 
+    Customer
+        => City Selection 
+        => Movies Selection
+        => Cinema & Show Selection 
+        => Ticket Booking 
+        => Ticket Notification
+        => Ticket Serving Order (FIFO)
+        => Payments (UPI, Credit Card, Debit Card, NetBanking)
+        => Notification of movies (SMS, Whatsapp, )
+        => Comments and Rating 
+        => Recommendation System
+    => Non Functional Requirements
+        => Concurrent Users 
+        => Payment is done so Consistency is important ACID Compliance
+        => Responsive UI 
+        => 100 movies 
+        => 1 million hall
+        => 1k seats 
+        => 1 billion users 
+        => 1 million queries per seconds 
+
+1st way     
+Use theater api's
+    => Lot of network IO calls 
+    => Async api calls Non blocking IO calls 
+
+2nd way 
+BMS connect to theater database 
+    => 
+
+Multiple user 
+    => lock
+    => timelocking mechanishm
