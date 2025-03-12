@@ -1,0 +1,56 @@
+What i know
+    => Requirement 
+        => Take long URL as input and shorten it 
+
+What i should know 
+    => Requirement
+        => Return shorten url 
+        => Return original url 
+        => Set expiration time for url 
+        => Custom Alias 
+        => QR Code Generation
+        => Click tracking 
+        => User login and manage short urls 
+
+Idea 
+    => Input String 
+    => Output String 
+    => Hashing Algorithm
+
+Classes as per entities 
+    => URL 
+
+Classes as per action 
+    => URL Controller 
+    => URL Validation  
+    => URL Shortening 
+
+URL 
+    => String url 
+
+URLValidator 
+    => isValidURL(URL url): boolean
+
+URLController 
+    => getshortenURL(RequestModel url): URL
+    => getOriginalURL(URL url): URL 
+
+URLService 
+    => getshortenURL(URL url): URL
+        => isValidURL
+        => shortenURL 
+        => storeInDB 
+
+URLRepository 
+    => 
+
+
+URLShortner 
+    => shortenURL(URL url): URL
+
+URL 
+id 
+longurl 
+shorturl 
+createdtimestamp
+expiretimestamp 
