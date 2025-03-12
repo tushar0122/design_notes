@@ -1,0 +1,20 @@
+high level design of a food delivery app from the users side.
+
+Billing System.
+
+E-commerce Checkout Design:
+Inter-System Communication:
+• Three systems are communicating—what patterns, services, and functionalities would you use?
+• They were particularly interested in API calls, fallback mechanisms, and database management.
+
+Design a URL shortener (focused on LLD rather than algorithms).
+Design LRU Cache
+Design a Payment Gateway Service (LLD)
+DB Design Questions 
+
+
+Design Snake N Ladders 
+Design Chess 
+
+Concurrency (Optimistic vs Pessimistic):-
+Kafka Internals (Advantages and Disadvantages over RabbitMQ)
