@@ -1,0 +1,13 @@
+Chat Application 
+
+Functional Requirements 
+    => Message text, pic 
+
+Non Functional Requirements
+    => 
+
+Capacity
+    => 
+
+Design 
+    

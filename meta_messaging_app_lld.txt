@@ -1,0 +1,9 @@
+Chat Application
+
+Requirements
+    => Add contact 
+    => Send message 
+    => Receive Message 
+
+Entities
+    => 
