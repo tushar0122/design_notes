@@ -18,12 +18,15 @@ Idea
     => Hashing Algorithm
 
 Classes as per entities 
-    => URL 
+    => URLRequest 
+    => URLResponse 
 
 Classes as per action 
-    => URL Controller 
-    => URL Validation  
-    => URL Shortening 
+    => URL Controller
+    => URL Service 
+    => URL Validator   
+    => URL Shortener
+    => URL Repository 
 
 URL 
     => String url 

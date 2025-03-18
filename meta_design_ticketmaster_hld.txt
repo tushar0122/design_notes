@@ -1,0 +1,19 @@
+Ticket Booking System 
+
+Functional Requirements    
+    => Movie Tickets
+        => Multiple Countries 
+        => Multiple Cities 
+        => Multiple Theatres 
+        => Movie to theatre mapping 
+        => theater to movie mapping 
+        => User Side 
+        => Admin Side  
+    => Events Ticket 
+        => Concert (Music Ticket)
+        => Gathering 
+
+Non Functional Requirements
+    => 
+
+Capacity 
