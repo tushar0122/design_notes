@@ -3,6 +3,7 @@ Ticket Booking System
 Type of software 
     => Not a game 
     => Need api and microservices
+    => Demo by calling methods of api from driver class, only given sceanrios not all
 
 New Requirements
     => User should be able to search movies 
@@ -44,6 +45,7 @@ Entities
         => Normal
         => Premium 
         => Royal
+
 User Side 
     => BookingController 
         => GET getActiveMovies(String cityId) 
