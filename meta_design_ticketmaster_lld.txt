@@ -5,6 +5,9 @@ Type of software
     => Need api and microservices
     => Demo by calling methods of api from driver class, only given sceanrios not all
 
+Left 
+    => Payment thing, classes? 
+
 New Requirements
     => User should be able to search movies 
     => User should be able to search theates 
