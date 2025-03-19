@@ -1,0 +1,23 @@
+It looks like you meant HTTP vs WebSocket. Here’s a comparison of the two:
+
+1. Protocol Type
+    => HTTP: A request-response protocol. The client requests data, and the server responds once per request.
+    => WebSocket: A full-duplex communication protocol that allows continuous two-way communication between client and server.
+2. Connection Behavior
+    => HTTP: A new connection is established for each request and closed after the response is received.
+    => WebSocket: A persistent connection is maintained between the client and server after the initial handshake.
+3. Latency & Efficiency
+    => HTTP: Higher latency due to repeated handshakes and request overhead.
+    => WebSocket: Lower latency as data can be pushed from the server without repeated handshakes.
+4. Use Cases
+    => HTTP: Suitable for REST APIs, web pages, file downloads, and applications where real-time communication is not essential.
+    => WebSocket: Ideal for chat applications, live notifications, multiplayer games, and stock market updates.
+5. Data Format
+    => HTTP: Typically uses JSON or XML in REST APIs, with each request carrying full headers.
+    => WebSocket: Supports binary and text frames with minimal overhead.
+6. Server Push Support
+    => HTTP: Not built-in (requires workarounds like long polling or Server-Sent Events).
+    => WebSocket: Natively supports real-time server push.
+7. Security
+HTTP: Uses HTTPS (TLS) for security.
+WebSocket: Uses wss:// (WebSocket Secure) for encryption.

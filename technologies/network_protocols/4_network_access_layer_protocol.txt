@@ -1,0 +1,3 @@
+Manages physical data transmission, MAC addressing, and error detection.	
+
+Ethernet, Wi-Fi (802.11), PPP, MAC

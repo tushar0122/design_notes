@@ -4,6 +4,9 @@ Requirements
     => Add contact 
     => Send message 
     => Receive Message 
+    => Able to see read and unread 
+    => Able to delete message 
+    => Able to edit message 
 
 Entities
     => 

@@ -1,0 +1,7 @@
+Network Layer Protocol
+    => These protocols facilitate data transfer over networks.
+
+TCP (Transmission Control Protocol)
+    => Reliable, connection-oriented communication.
+UDP (User Datagram Protocol)
+    => Faster, connectionless communication, but less reliable.

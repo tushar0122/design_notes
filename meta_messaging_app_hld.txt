@@ -1,13 +1,34 @@
-Chat Application 
+Whatsapp
 
 Functional Requirements 
-    => Message text, pic 
-
+    => User registration 
+    => User login 
+    => Message text, pic, doc  
+        => one to one 
+        => one to group 
+    => Status 
+    => Send N Receive 
+    
 Non Functional Requirements
-    => 
+    => Can be with billion people 
 
-Capacity
+Missed 
+    => Message Acknowledgement
+    => Encryption of msg 
     => 
 
 Design 
-    
+    => 
+
+Whatsapp UI 
+
+Load Balancer
+Pod Scaling  
+User Service
+    => Some rest api for registration login
+
+No load Balancer stateful api 
+Pod Scaling?
+Chat Server 
+    => Websocket connection 
+

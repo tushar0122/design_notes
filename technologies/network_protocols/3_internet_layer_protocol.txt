@@ -1,0 +1,13 @@
+Internet Layer Protocol
+    => Handles addressing, routing, and IP packet forwarding.	
+
+IP (Internet Protocol)
+    => Addresses and routes packets across networks.
+ICMP (Internet Control Message Protocol)
+    => Error reporting and diagnostics (e.g., ping).
+OSPF (Open Shortest Path First)
+    => Dynamic IP routing.
+BGP (Border Gateway Protocol)
+    => Internet routing between autonomous systems.
+RIP (Routing Information Protocol)
+    => Distance-vector routing.
