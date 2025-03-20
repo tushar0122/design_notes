@@ -11,5 +11,8 @@ IMAP/POP3 (Internet Message Access Protocol/Post Office Protocol)
     => Email retrieval.
 MQTT (Message Queuing Telemetry Transport)
     => IoT communication
+
 WebSocket (WS/WSS)	
     => Full-duplex, real-time communication over a single TCP connection	
+Server Side Events 
+    => Push real-time updates from server to client	

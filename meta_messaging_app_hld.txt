@@ -1,5 +1,14 @@
 Whatsapp
 
+Type of Software 
+    => People see passively 
+    => Asynchronus communication can be done 
+    => So messaging queue 
+    => So event driven architecture
+    => Two sided communication
+        => So Websocket
+        => Full duplex
+
 Functional Requirements 
     => User registration 
     => User login 
@@ -18,17 +27,60 @@ Missed
     => 
 
 Design 
-    => 
+    User 1 Whatsapp UI 
+        => 
+    User Service
+        => Some rest api for registration login
+    Load Balancer
+    Pod Scaling  
 
-Whatsapp UI 
+    WebSocket Server 1
+        => Store websocket connection in redis db mark as online 
+        => Check if any message present and sent it client
+        => Store message in database with timestamp 
+        => Check if user2 online 
+        => Forward to relevant server
+    Load Balancing with Sticky Sessions  
+    Pod Scaling 
 
-Load Balancer
-Pod Scaling  
-User Service
-    => Some rest api for registration login
+    Redis Session Database
+        => Update user active and server and Websocket connection details 
 
-No load Balancer stateful api 
-Pod Scaling?
-Chat Server 
-    => Websocket connection 
+    Database
+        => Store in database if offline
 
+    WebSocker Server 2
+        => Store websocket connection in redis db mark as online 
+        => Check if any message present and sent it client
+        => Store message in database with timestamp 
+        => Check if user2 online 
+        => Forward to relevant server 
+
+    No load Balancer stateful api 
+    Pod Scaling?
+
+    User 2 Whatsapp UI 
+
+
+Database 
+    => To Store Message & Retrieve Messages 
+    => Message 
+        => senderId 
+        => receiverId 
+        => msgContent
+        => timestamp 
+        => msgType 
+    => User 
+        => userId 
+        => userName 
+        => userNumber 
+        => userMailId
+
+User A - s1 cs 
+User B - s2 cs 
+A - s1 - cs - s2 - B 
+
+0 0 
+0 1 
+
+1 0 
