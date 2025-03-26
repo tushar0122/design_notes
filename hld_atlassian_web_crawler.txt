@@ -1,0 +1,2 @@
+Design Web Crawler where we have to crawl only links to an image. Limit the crawling to a Depth of N.
+

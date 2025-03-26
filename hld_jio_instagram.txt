@@ -1,0 +1,2 @@
+I was informed that this would an LLD round. But the interviewer joined the call and asked me to design the feed service and the post-service of Instagram. Must be able to post photos and see it on the feed basically. He asked me questions regarding my design. Questioned my choices. And also asked me a few Java and spring-boot questions as well at the start of the round. He questioned everything regarding my design, but was very patient and relaxed about my approach. Honestly fumbled a lot, but was able to cover it up. Asked me to draw it out on excaliDraw.
+
