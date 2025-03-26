@@ -1,0 +1,52 @@
+
+- Design a parking lot (https://lnkd.in/dBSdy7qx) 
+- Design an event booking platform - (https://lnkd.in/dDtjrTKS)
+- Design Splitwise (https://lnkd.in/dNxFVxYK)
+- Design Chess (https://lnkd.in/dT3z-RvY)
+- Design a chat application (https://lnkd.in/dGRn8NpV)
+- Design UPI (https://lnkd.in/dYjsXe6T)
+
+
+Here is a list of common low level design patterns which you can use in your code:
+
+1. Adapter Design Pattern: https://lnkd.in/gGx56H-t
+
+2. Facade Design Pattern: https://lnkd.in/gKxvQeKH
+
+3. Singleton Design Pattern: https://lnkd.in/gXHpxcYw
+
+4. Abstract Factory Pattern: https://lnkd.in/gnSFEGwt
+
+5. Factory Method Pattern: https://lnkd.in/gEKy93Ge
+
+6. Observer Pattern: https://lnkd.in/g_xbJaA3
+
+7. Strategy Pattern: https://lnkd.in/gTw7q4ZB
+
+
+1. LLD playlist of Concept & Coding YT channel by Shrayansh Jain. 
+2. LLD playlist of Udit Agarwal YT channel 
+
+
+Here are the questions:
+
+1.https://github.com/kumaransg/LLD (Full repository - 10 questions)
+
+2.https://lnkd.in/dCWUP2Pd
+(Full repository - 27 questions)
+
+3.https://lnkd.in/duqqP_rh
+
+4.https://lnkd.in/dfZSRsB6
+
+5.https://lnkd.in/d9fysZxb
+
+6.https://lnkd.in/deKZqpaT
+
+7.https://lnkd.in/d4ku_Fvg
+
+8.https://lnkd.in/dciHTEYp
+
+9.https://lnkd.in/djBF3evc
+
+10.https://lnkd.in/duiqDwSK

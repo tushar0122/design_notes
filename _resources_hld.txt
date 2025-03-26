@@ -1,0 +1,29 @@
+Here it is :
+➡️ ByteByteGo by Alex Xu
+➡️ Arpit Bhayani (Asli Engineering)
+➡️ Code Karle by Sandeep Kaul
+➡️ Hussein Nasser
+➡️ Gaurav Sen (GKCS / InterviewReady)
+➡️ Jordan Has No Life
+➡️ System Design Interview by Mikhail Smarshchok
+➡️ Tech Dummies
+
+
+🔶 Start with learning system design basics from Gaurav Sen's playlist https://lnkd.in/gJTvNSct
+
+🔶One of the most useful resources for HLD preparation is “System Design Interview” by Alex Xu. I highly recommend reading this book thoroughly as all the system design problems in this book are structured the way an interviewer expects you to answer 👩‍💻
+
+🔶 Once you are familiar with the basic system design problems given in the above book, you can study additional design problems from Narendra Lakshmana Gowda’s system design playlist
+
+Template for Answering HLD questions
+- Refer to this awesome leetcode post - https://lnkd.in/gZrCXemm
+
+To figure out all the topics to study
+- I referred to this GitHub repo - https://lnkd.in/gugyZVCF
+
+Study Materials:
+- Grokking System Design Interview (Link- https://lnkd.in/gZc3B8TU)
+
+Youtube Channel:
+- https://lnkd.in/gVq_2yE4
+- https://lnkd.in/gBFi-HxD
