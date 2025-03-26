@@ -1,0 +1,34 @@
+Problem Statement 
+    => The interviewer asked me to design an Amazon Notification Service for price drop alerts.
+
+Constants 
+    => NotificationType
+        => Email
+        => SMS
+        => Push
+
+Entities 
+    => Notification
+        => String msg
+    => Item 
+        => int itemId;
+        => String itemName;
+        => int price;
+    => User 
+        => int userId
+        => String userName;
+
+Service 
+    => NotificationService
+        => sendNotification(int itemId): void
+    => UserItemSubscriptionService
+        => Map<Integer, List<Integer>> itemUserMapping
+        => subscribe(int itemId, int userId): void 
+    => UserNotificationPreferenceService
+        => Map<Integer, List<NotificationType>> UserNotificationPreference
+        => setUserPreference
+    => PriceTrackerService 
+        => Periodically fetches price 
+        => Publish events
+    => Message Broker 
+        => 
