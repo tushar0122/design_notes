@@ -1,5 +1,0 @@
-Remote Access Protocol
-
-SSH (Secure Shell) – Secure remote login.
-Telnet – Unsecured remote access.
-RDP (Remote Desktop Protocol) – Microsoft remote access.

@@ -1,6 +1,9 @@
-LLD 
-    => Not enough questions not exact answers 
-    => Any questions will work 
-    => So youtube 
-    => Any just do
-    
+Lld 
+1 playlist concept or example
+1 article questions design n machine code 
+1 leetcode questions design n machine code
+
+Hld 
+1 playlist concept or example
+1 article questions design 
+1 leetcode questions design

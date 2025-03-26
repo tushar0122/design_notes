@@ -1,5 +1,0 @@
-Security Protocols
-
-TLS/SSL (Transport Layer Security/Secure Sockets Layer) – Encrypts web traffic.
-IPSec (Internet Protocol Security) – Secures IP communication.
-Kerberos – Authentication in network environments.
