@@ -1,3 +1,5 @@
+1. LLD playlist of Concept & Coding YT channel by Shrayansh Jain. 
+2. LLD playlist of Udit Agarwal YT channel 
 
 - Design a parking lot (https://lnkd.in/dBSdy7qx) 
 - Design an event booking platform - (https://lnkd.in/dDtjrTKS)
@@ -22,10 +24,6 @@ Here is a list of common low level design patterns which you can use in your cod
 6. Observer Pattern: https://lnkd.in/g_xbJaA3
 
 7. Strategy Pattern: https://lnkd.in/gTw7q4ZB
-
-
-1. LLD playlist of Concept & Coding YT channel by Shrayansh Jain. 
-2. LLD playlist of Udit Agarwal YT channel 
 
 
 Here are the questions:

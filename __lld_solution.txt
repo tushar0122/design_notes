@@ -1,0 +1,28 @@
+Requirement Gathering 
+Objects Identification
+Object Properties 
+Object 
+    => State
+        => Pojo class 
+    => State&Behaviour
+        => Database & Repository 
+    => Behaviour
+        => Service 
+    => Constants 
+        => Enums
+
+Inheritance 
+    => Is-A relationship
+
+Some class used as object 
+    => Has-A relationship
+    => Association is the relation between two separate classes which establishes through their Objects.
+
+Separation of logics 
+    => Distribute Services as much as possible 
+    => Define as much mehods as possible
+
+Extensible Code 
+    => As many strategy classes possible
+
+Appropriate Design Patterns
