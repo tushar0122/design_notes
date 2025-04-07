@@ -1,0 +1,5 @@
+HLD 
+    => First clear Requirement
+    => Not all, as per time constraints 
+    => Basic Key Features First
+    => Start with 4 or 5 features

@@ -1,0 +1,19 @@
+Design Instagram
+
+Requirements
+Basic Feature
+Post Images/Videos
+Receive Images/Videos
+Like Image/Videos
+Comment
+Follow someone
+Post Reel
+Receive Reel
+Like Reel
+Comment
+
+Bonus
+User Registration
+Private/Public 
+Blocked Account
+
