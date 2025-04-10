@@ -1,0 +1,2 @@
+Task: Design Stack Overflow.
+Details: Discussed DB schema, choice of DB (SQL vs. NoSQL), API design, and search functionality. Messed up on reasoning for DB choice.

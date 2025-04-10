@@ -1,0 +1,4 @@
+Was asked to design Shazam
+Was slighlty clueless but eventually pivoted around how can narrow down the song search space
+Gave 5-6 strategies around it and the interviewer was very impressed by these suggestions
+System Design was my forte and interviewer gave a strong hire

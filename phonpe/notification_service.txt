@@ -1,0 +1,2 @@
+The task was to design a notification service that supports email, SMS, and push notifications. Different types of notifications may have varying delays. The system needed to scale dynamically for specific types of notifications.
+

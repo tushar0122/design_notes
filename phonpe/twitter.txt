@@ -1,0 +1,7 @@
+Design Twitter
+Functionalities:
+
+Post Tweet
+follow-following
+user timeline
+user profile
