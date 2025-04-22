@@ -13,6 +13,10 @@ how user receives feed
     => Need to compute frequently 
     => In cache 
 
+what is celebrity post a feed 
+    => because 1 million followers 
+    => pull model
+
 how notification receives
     => websocket 
     => 
