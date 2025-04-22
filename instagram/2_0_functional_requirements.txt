@@ -1,0 +1,5 @@
+Core features 
+    => User register 
+    => User able to follow 
+    => Post some content 
+    => Get content in his feed 

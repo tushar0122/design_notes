@@ -1,0 +1,4 @@
+Content Can be of type
+    => Text 
+    => Images 
+    => Videos
