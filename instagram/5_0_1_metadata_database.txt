@@ -1,0 +1,11 @@
+Image MetaData 
+    
+Database to choose 
+    => SQL 
+    
+Why?
+    => Related Data 
+    => User post 
+
+why not NoSQL?
+    => Not unrelated data 

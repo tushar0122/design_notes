@@ -1,0 +1,20 @@
+User Registration/Sign in 
+    => User Database?
+    => Service 
+
+User Followers/Following 
+    => Graph Database NoSQL
+    => Service?
+
+Messaging Queue 
+    => 
+
+Notification Service 
+    => Followers/Following Notification
+
+Post a Content 
+    => Database?
+    => Service?
+
+Get a content 
+    => 

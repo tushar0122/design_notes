@@ -3,3 +3,4 @@ Core features
     => User able to follow 
     => Post some content 
     => Get content in his feed 
+    => Like+Comment Facility for an image 
