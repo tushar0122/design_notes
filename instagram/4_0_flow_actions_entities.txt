@@ -1,6 +1,10 @@
 Flow 
     => User registers/Login => post a feed => follow somoeone => get feed => Like a feed => Comment a feed
 
+Services 
+    => User Feed 
+    => 
+
 Entities 
     => User 
         => user id 
