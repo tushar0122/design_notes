@@ -1,0 +1,24 @@
+Flow 
+    => User registers/Login => post a feed => follow somoeone => get feed => Like a feed => Comment a feed
+
+Entities 
+    => User 
+        => user id 
+        => user name 
+    => Post
+        => User  
+        => Image 
+        => Video 
+        => Text 
+        => Comments 
+        => Likes 
+    => Comment
+        => id 
+        => Content
+    => Likes 
+        => id 
+        => post/comment_id 
+        => user_id 
+        => timestamp
+        => isActive
+        => type 

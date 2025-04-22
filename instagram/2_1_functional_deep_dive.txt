@@ -3,8 +3,9 @@ Content Can be of type
     => Images 
     => Videos
 
-Flow 
-    => User registers => post a feed => follow somoeone => get feed 
-
 Feed showing algorithm 
     => Reverse chronological order
+
+Comment on comment (No recursive)
+
+Likes can also be on comment
