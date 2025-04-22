@@ -2,3 +2,9 @@ Content Can be of type
     => Text 
     => Images 
     => Videos
+
+Flow 
+    => User registers => post a feed => follow somoeone => get feed 
+
+Feed showing algorithm 
+    => Reverse chronological order
