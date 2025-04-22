@@ -1,0 +1,18 @@
+Flow 
+    => User registers/Login => post a feed => follow somoeone => get feed => Like a feed => Comment a feed
+
+Services 
+    => post service 
+    => get service 
+    => followers service
+    => profile service
+    => notification service
+
+
+how user receives feed 
+    => Need to compute frequently 
+    => In cache 
+
+how notification receives
+    => websocket 
+    => 
