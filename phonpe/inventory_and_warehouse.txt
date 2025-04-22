@@ -1,6 +1,0 @@
-They ask me create a system where we manage the inventory and warehouses
-We can transfer items from one warehouse to other warehouse
-We will populate the inventory in warehouse by some kind of excel file , in excel file we have all the item and quantity required information.
-We need to think about how we can track the mismatch inventory and lost item
-How we will manage the transfer of data from one warehouse to another ( I give approach by creating order and maintain status as it physical transfer , interviewer said don't think it as a physical transfer , just think to make the server call and update it in persistent database)
-Interviewer expectation is quite different , they want me to treat each item as unique and with the unique sequence number we have to manage it , they don't want me to take quantity in picture. I messed up this round and rejected as more time spent on DB design and API designing because of bit confusion and I left with very less time for HLD design .**

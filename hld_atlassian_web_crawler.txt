@@ -1,2 +1,0 @@
-Design Web Crawler where we have to crawl only links to an image. Limit the crawling to a Depth of N.
-https://leetcode.com/discuss/post/6580351/atlassian-p50-onsite-by-underdog10-cghv/

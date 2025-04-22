@@ -1,3 +1,0 @@
-Design Splitwise-type Application : CRUD Expense, View Debts/Credits with other users,
-Discussed API Design, DB Design, Scalability, Tradeoffs,
-Feedback : Positive

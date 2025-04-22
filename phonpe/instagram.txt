@@ -1,2 +1,0 @@
-Note: For feed publishing and fetching, Interviewer didn't agree with Message queue approach as it is not scalable for billions of users.
-

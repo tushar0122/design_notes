@@ -1,8 +1,0 @@
-Design a subscription suggestion and management service for an existing ecommerce application. 
-Requirement: 
-1. On Order summary/Cart page of an ecommerce application, we should suggest a subscription (gold/silver/platinum etc.)based on amount of the cart. If user modifies the cart, subscription should be suggested accordingly. 
-2. The subscription should be added as a cart item with by default not selected. 
-3. User can select or deselect the subscription and based on this the amount of the cart should also change.
-4. Orchestration and management of this subscription. 
-
-We have discussed mainly about API Designing, database schema design, system orchestration, microservices seggregation.

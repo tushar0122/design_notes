@@ -1,1 +1,0 @@
-In this round I was asked to design a SAAS ticket management system which can be used by any food or retail store for instance by Airtel.

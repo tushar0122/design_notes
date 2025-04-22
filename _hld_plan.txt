@@ -1,1 +1,11 @@
-Network Protocols
+Start with Functional Requirements 
+    => Be clear with most important functionality to be implemented
+
+Deep dive in Functional Requirements
+    => 
+
+Go for Non Functional Requirements Also 
+    => Number of active users per day 
+    => Number of request per user 
+
+Next Start with Database
