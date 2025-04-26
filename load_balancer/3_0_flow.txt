@@ -1,0 +1,16 @@
+4. Where Are Load Balancers Typically Placed?
+
+In between the client application/user and the server
+In between the server and the application/job servers
+In between the application servers and the cache servers
+In between the cache servers the database servers
+
+5.1. Types of Load Balancer – Based on Configurations
+
+
+6. Load Balancing Algorithms
+1. Round Robin
+2. Weighted Round Robin
+3. Source IP Hash
+4. Least Connection Method
+5. Least Response Time Method

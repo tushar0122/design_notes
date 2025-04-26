@@ -1,0 +1,2 @@
+Core features 
+    => Distribute incoming traffice across multiple backend servers  

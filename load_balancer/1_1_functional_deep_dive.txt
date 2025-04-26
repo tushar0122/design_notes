@@ -1,0 +1,11 @@
+Content Can be of type
+    => Text 
+    => Images 
+    => Videos
+
+Feed showing algorithm 
+    => Reverse chronological order
+
+Comment on comment (No recursive)
+
+Likes can also be on comment

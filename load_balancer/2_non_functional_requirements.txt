@@ -1,0 +1,4 @@
+NFR 
+    => High Availability 
+    => Performance
+    => Reliability

@@ -1,0 +1,17 @@
+For Images, Videos
+
+Database to choose 
+    => Object Storage 
+    => Ex. 
+        => Amazon S3 
+        => Google GCS
+        => Azure Blob Storage
+
+Other things 
+    => Use CDN for faster delivery
+    => Store metadata in database
+
+Database not to choose 
+    => Database Blob 
+    => Slower I/O 
+    => harder to scale 

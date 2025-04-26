@@ -1,0 +1,25 @@
+Flow 
+    => User registers/Login => post a feed => follow somoeone => get feed => Like a feed => Comment a feed
+
+Entities 
+    => Client layer  
+    => Followers
+        => FollowersId 
+        => FolloweeId 
+        => timestamp
+    => Post
+        => id
+        => UserId  
+        => Image 
+        => Text 
+    => Comment
+        => id 
+        => text 
+        => timestamp
+    => Likes 
+        => id 
+        => post/comment_id 
+        => user_id 
+        => timestamp
+        => isActive
+        => type 
