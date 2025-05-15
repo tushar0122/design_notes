@@ -1,3 +1,0 @@
-Dead Letter Queues (DLQ)
-Messages that repeatedly fail processing are sent to DLQs.
-Monitor DLQ size: a growing DLQ indicates consistent consumer-side failures.

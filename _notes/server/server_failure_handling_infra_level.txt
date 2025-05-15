@@ -1,3 +1,0 @@
-Multi-Zone / Multi-Region Deployments
-Spread your workloads across availability zones or regions.
-Reduces impact of zone-specific or region-wide failures.

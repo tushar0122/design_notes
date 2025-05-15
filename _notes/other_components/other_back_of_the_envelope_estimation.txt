@@ -1,6 +1,0 @@
-KMGTP
-    => QPS 
-    => Peek QPS 
-    => Storage 
-    => Cache 
-    => Number of Servers 
