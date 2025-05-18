@@ -35,7 +35,7 @@ Factors Affecting choice of data
     => Store data in someone else primary search of truth
     => Mainly a search Engine
 
-4. Time Series Database 
+4. Time Series Database (Time series data like logs metrics of application)
     => Extension of relational databases
     => Not all functionality of sql 
     => But some additional functionality 
@@ -49,3 +49,10 @@ Factors Affecting choice of data
     => Time Series Database 
         => InfluxDB 
         => OpenTsDB
+
+5. Analytics on large database
+    => Datawarehouse 
+    => Not transactional system 
+    => Offline
+    => Databases
+        => Hadoop
