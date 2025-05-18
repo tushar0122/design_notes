@@ -2,7 +2,10 @@ Write Throughput
 TimeSeries Database > Wide Column Database > Document Database
 
 Availability
-Wide Column Database > Time Series Database
+Wide Column Database > Document Database > Time Series Database
 
 Consistency
 SQL Database > Document Database > Wide Column Database
+
+Read 
+Document Database > SQL Database > Wide Column Database
