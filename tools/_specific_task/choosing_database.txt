@@ -1,0 +1,27 @@
+Choice of Database 
+    => Not impact functional requirement
+    => It impacts non functional requirement mainly
+
+Factors Affecting choice of data
+1. Structure of Data 
+    => 
+
+2. Query Pattern
+    => 
+
+3. Amount of Scale 
+    => 
+
+4. Caching Solutions
+    => Generally key value pair we have 
+        => Redis
+        => Memcached
+        => Hazelcast
+
+5. File Storage
+    => To Store Image Video
+    => Blob Storage 
+        => Amazon S3 
+        => CDN
+            => Distributing same images 
+        => 
