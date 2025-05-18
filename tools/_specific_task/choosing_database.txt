@@ -19,7 +19,9 @@ Choice of Database
     => With support of fuzzy search 
     => Text search Engine 
         => Elastic Search Engine 
+            => It is a document database 
         => Solar
+            => It is a document database 
     => Data could be lost 
     => Not very much as database
     => Store data in someone else primary search of truth
@@ -58,10 +60,16 @@ Factors Affecting choice of database
             => Atomicity, Consistency 
             => MySQL, Oracle, PostgreSQL, SQL Server
         => ACID Properties Not Required 
-            => 
-
-2. Query Pattern
-    => 
-
-3. Amount of Scale 
-    => 
+            => Any database would be fine
+    => Non structured Database
+        => Data 1
+            => Large set of attributed
+            => Varierty of Queries
+            => Document Databases
+                => MongoDB, CouchBase
+        => Data 2
+            => Ever increasing data 
+            => Finite Queries 
+            => Columnar DB 
+                => Cassandra DB 
+                => HBase 
