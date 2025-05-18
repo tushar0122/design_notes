@@ -2,16 +2,6 @@ Choice of Database
     => Not impact functional requirement
     => It impacts non functional requirement mainly
 
-Factors Affecting choice of data
-1. Structure of Data 
-    => 
-
-2. Query Pattern
-    => 
-
-3. Amount of Scale 
-    => 
-
 1. Caching Solutions
     => Generally key value pair we have 
         => Redis
@@ -56,3 +46,22 @@ Factors Affecting choice of data
     => Offline
     => Databases
         => Hadoop
+
+For SQL & NoSQL
+Factors Affecting choice of database
+1. Structure of Data 
+    => Structured Information 
+        => Easily model in some form a table 
+        => ACID Properties Required 
+            => Payment System 
+            => Inventory Management System 
+            => Atomicity, Consistency 
+            => MySQL, Oracle, PostgreSQL, SQL Server
+        => ACID Properties Not Required 
+            => 
+
+2. Query Pattern
+    => 
+
+3. Amount of Scale 
+    => 
