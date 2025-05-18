@@ -1,22 +1,4 @@
-Mongodb 
-Document-oriented (JSON/BSON)	
-Collections of documents
-Schema-less (dynamic documents)	
-MongoDB Query Language (MQL)		
-Rich and expressive query syntax	
-Architecture
-    => Master-Slave (Replica Sets)	
-Fault Tolerance
-    => Replica sets and sharding	
-CAP Theoram
-    => CP (Consistency and Partition tolerance)	
-Consistency
-    => Strong consistency by default	
-Read Write 
-    => Balanced read-write workloads	
-Use 
-    => Your workload is read-heavy or balanced
-
+MongoDB
 When to use 
 1. Schema Flexibility
     => Your data model evolves frequently (e.g., startups, prototyping).
@@ -32,10 +14,15 @@ When to use
     => You want automatic sharding to distribute data across nodes.
 
 When Not to Use MongoDB
-ou need multi-row ACID transactions across collections.
+You need multi-row ACID transactions across collections.
 You rely on complex joins and relational integrity.
 You’re doing heavy aggregations over massive structured datasets (better suited to SQL or columnar stores).
 You need real-time analytics (consider Apache Druid, ClickHouse, or BigQuery instead).
 
 
-
+Read Preference	Consistency	Description
+primary (default)	✅ Strong	Always reads from primary (latest confirmed data)
+primaryPreferred	⚠️ Mostly strong	Primary if available; otherwise, possibly stale secondary
+secondary	❌ Eventually	May return stale data (secondary lag possible)
+secondaryPreferred	❌ Eventually	Uses secondary unless unavailable
+nearest	❌ Eventually	Fastest node, could be stale

@@ -1,0 +1,22 @@
+When to use 
+1. You should use Elasticsearch when you need fast, full-text search, real-time analytics, or log/event data exploration over large volumes of semi-structured or unstructured data.
+    => You need to search text fields with features like:
+        Fuzzy matching
+        Autocomplete
+        Relevance scoring
+        Language-specific analyzers (stemming, stop words)
+2. Log & Event Data Analytics
+    => You’re collecting machine-generated data like logs, metrics, traces.
+    => You want to:
+        => Search logs quickly by error codes, IPs, timestamps
+        => Build dashboards with Kibana 
+        => Detect anomalies or trends
+3. High-Volume, Write-Heavy Workloads
+    => You ingest and search millions of records per day.
+    => You want to horizontally scale indexing and search speed
+
+When Not to use 
+    => You need strong consistency and ACID guarantees (use SQL, MongoDB, etc.).
+    => You require complex relational joins or transactions.
+    => You want a primary system of record — Elasticsearch is optimized for search and analytics, not long-term data storage or transactional systems.
+    => You have small datasets and don’t need fuzzy search or full-text capabilities — use a database instead.
