@@ -1,1 +1,0 @@
-If you are given a AI service which can detect in/out of all vehicles in parking lot, design a service to be able to integrate the AI service to your parking lot.

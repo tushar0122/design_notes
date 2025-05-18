@@ -1,2 +1,0 @@
-https://leetcode.com/discuss/post/5691548/jpmc-sde-23-interview-experience-by-anon-q3jn/
-Ask me to design high level system design of how facebook/youtube might generate feed for different users. I did give the proper answer with pro/cons of each approach but somehow from the moment he had joined interview he was angry at me. Every solution according to him did not require optimisation or was not matter of concern. According to him, just put everything in db and then retrieve it for millions of users was a good design -_-

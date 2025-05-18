@@ -1,2 +1,0 @@
-https://leetcode.com/discuss/post/6742436/sde-2-interview-by-anonymous_user-kma1/
-Design a system which provides route map to pickup from huge number of Stores (Each store has a pickup time and is linked to a single warehouse).

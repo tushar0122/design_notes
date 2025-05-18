@@ -1,2 +1,0 @@
-https://leetcode.com/discuss/post/5834565/jpmc-sde-2-by-anonymous_user-871u/q
-I was assigned to integrate AI Parking management service with exisiting REST based architecture.

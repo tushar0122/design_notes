@@ -1,3 +1,0 @@
-https://leetcode.com/discuss/post/6222564/jp-morgan-chase-jpmc-java-developer-sd2-sumn7/
-Improve the system design of Google Drive-like system
-I was given a skeleton of the basic components like load balancer, file fetching service, user service, S3 DB. I had to add/optimize the components needed to make the system robust and scalable.
