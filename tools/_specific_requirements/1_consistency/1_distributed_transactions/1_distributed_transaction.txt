@@ -1,0 +1,7 @@
+Distributed Transaction 
+    => Not limited to SQL, but generally Sql database 
+    => When we want to update in multiple database (or) system and make it as atomic, like either success all or none 
+    => If not atomic, leads to inconsistency
+
+Possible ways 
+ 
