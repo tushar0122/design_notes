@@ -1,0 +1,8 @@
+Write Throughput 
+TimeSeries Database > Wide Column Database > Document Database
+
+Availability
+Wide Column Database > Time Series Database
+
+Consistency
+SQL Database > Document Database > Wide Column Database
