@@ -1,0 +1,2 @@
+Apache Spark is a fast, distributed computing engine designed for large-scale data processing. It was built to overcome the limitations of Hadoop's MapReduce, offering much better speed and flexibility.
+

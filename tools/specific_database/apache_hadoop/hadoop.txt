@@ -1,0 +1,36 @@
+Apache Hadoop is an open-source framework for storing and processing massive amounts of data distributed across clusters of commodity hardware.
+It’s designed for Big Data workloads that are too big or complex for traditional databases.
+
+When to Use Hadoop
+1. You Have Massive Volumes of Data (Big Data)
+When data size is too large for traditional databases (terabytes to petabytes).
+Examples: logs, social media feeds, sensor data, clickstream data.
+
+2. You Need Distributed Storage and Processing
+When data must be distributed across many servers for storage and parallel processing.
+Hadoop’s HDFS + MapReduce/YARN lets you store/process data on commodity hardware clusters.
+
+3. Batch Processing and ETL Jobs
+When you need to run complex batch jobs like aggregations, filtering, sorting.
+Ideal for offline analytics, reporting, and data transformation pipelines.
+
+4. Cost-Effective Storage
+When you want to store large amounts of data cheaply using commodity hardware instead of expensive SAN/NAS.
+Hadoop handles failures gracefully with data replication.
+
+5. You Work with Diverse Data Types
+Structured, semi-structured, and unstructured data — Hadoop can handle all.
+No need to predefine schema strictly (schema-on-read).
+
+6. You Need Scalability & Fault Tolerance
+Systems that must scale out easily by adding nodes.
+High availability is important — node failures happen but processing continues.
+
+7. You Use Data Warehousing / Analytics at Scale
+When running SQL-like queries on huge datasets (via Hive, Impala).
+When integrating with tools like Spark for faster analytics.
+
+When Hadoop May Not Be Ideal
+For low-latency or real-time processing — Hadoop’s MapReduce is batch-oriented and relatively slow.
+For small datasets or simple OLTP (transactional) workloads.
+When you need strong transactional consistency like relational DBs.
