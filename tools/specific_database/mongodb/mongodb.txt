@@ -26,3 +26,7 @@ primaryPreferred	⚠️ Mostly strong	Primary if available; otherwise, possibly 
 secondary	❌ Eventually	May return stale data (secondary lag possible)
 secondaryPreferred	❌ Eventually	Uses secondary unless unavailable
 nearest	❌ Eventually	Fastest node, could be stale
+
+MongoDB is primarily a CP system, but with tunable options:
+MongoDB handles network partitions by electing a new primary and refusing writes on isolated partitions (to avoid split-brain). It tolerates partitions by choosing consistency over availability in such cases.
+
