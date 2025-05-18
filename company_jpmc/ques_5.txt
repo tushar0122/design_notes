@@ -1,0 +1,2 @@
+https://leetcode.com/discuss/post/5438765/jp-morgan-se3-interview-experience-by-an-zigo/
+the question was to design a parking lot system,

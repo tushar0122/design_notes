@@ -1,0 +1,2 @@
+https://leetcode.com/discuss/post/6633523/jpmorgan-chase-jpmc-sde-3-bengaluru-by-s-fuof/
+2. Design a Virus Scanning service. Follow-up questions on fault tolerance. I designed and made it idempotent.
