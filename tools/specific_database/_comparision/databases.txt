@@ -1,0 +1,49 @@
+Cassandra
+Wide-column store (table-like with flexible columns)
+Keyspaces with column families (tables)
+Schema required for tables
+SQL-like but limited JOINs/aggregations
+
+Architecture
+    => Masterless (Peer-to-Peer)
+
+Fault Tolerance
+    => High availability by design
+
+CAP Theoram
+    => AP (Availability and Partition tolerance)
+
+Consistency
+    => Tunable consistency (eventual by default)
+
+Read Write 
+    => Optimized for heavy write workloads
+
+Use 
+    => - You need high availability and fault tolerance
+
+
+Mongodb 
+Document-oriented (JSON/BSON)	
+Collections of documents
+Schema-less (dynamic documents)	
+MongoDB Query Language (MQL)		
+Rich and expressive query syntax	
+
+Architecture
+    => Master-Slave (Replica Sets)	
+
+Fault Tolerance
+    => Replica sets and sharding	
+
+CAP Theoram
+    => CP (Consistency and Partition tolerance)	
+
+Consistency
+    => Strong consistency by default	
+
+Read Write 
+    => Balanced read-write workloads	
+
+Use 
+    => Your workload is read-heavy or balanced
