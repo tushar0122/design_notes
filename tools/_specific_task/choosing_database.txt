@@ -12,16 +12,40 @@ Factors Affecting choice of data
 3. Amount of Scale 
     => 
 
-4. Caching Solutions
+1. Caching Solutions
     => Generally key value pair we have 
         => Redis
         => Memcached
         => Hazelcast
 
-5. File Storage
+2. File Storage
     => To Store Image Video
     => Blob Storage 
         => Amazon S3 
         => CDN
             => Distributing same images 
-        => 
+        
+3. Searching Capabilities
+    => With support of fuzzy search 
+    => Text search Engine 
+        => Elastic Search Engine 
+        => Solar
+    => Data could be lost 
+    => Not very much as database
+    => Store data in someone else primary search of truth
+    => Mainly a search Engine
+
+4. Time Series Database 
+    => Extension of relational databases
+    => Not all functionality of sql 
+    => But some additional functionality 
+    => Regular Database 
+        => Update a record 
+        => Query random record 
+    => Sequential update 
+    => Append only data 
+    => No random read and update
+    => Query on time range
+    => Time Series Database 
+        => InfluxDB 
+        => OpenTsDB
