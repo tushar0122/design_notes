@@ -1,8 +1,13 @@
-Hotel Booking System
+Youtube
+https://www.youtube.com/watch?v=YyOXt2MEkv4
 
 Real life Applications
     => Airbnb
     => Agoda
 
-Video
-https://www.youtube.com/watch?v=YyOXt2MEkv4
+
+While Payment is ongoing asynchronously 
+    => Spinner is there 
+    => We can use polling or websocket connection 
+    => When payment is done kafka service push payment event 
+    => Websocket service consumes that event and return response to UI 
