@@ -1,0 +1,18 @@
+Method Reference 
+    => It is to call existing method 
+    => Here we don't pass arguments 
+    => It can be used in place of lambda function
+    => Used in stream operations 
+
+Types of Method References
+    
+    => There are four type method references that are as follows:
+        => Static Method Reference
+            Class::staticMethod;
+        => Instance Method Reference of a particular object
+            obj::instanceMethod;
+        => Instance Method Reference of an arbitrary object of a particular type
+            ObjectType::instanceMethod;
+        => Constructor Reference
+            ClassName::new
+
