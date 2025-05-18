@@ -4,4 +4,6 @@ Distributed Transaction
     => If not atomic, leads to inconsistency
 
 Possible ways 
- 
+    => 2 phase commit 
+    => 3 phase commit 
+    => Saga pattern
