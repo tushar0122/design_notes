@@ -1,1 +1,41 @@
+Mongodb 
 Document-oriented (JSON/BSON)	
+Collections of documents
+Schema-less (dynamic documents)	
+MongoDB Query Language (MQL)		
+Rich and expressive query syntax	
+Architecture
+    => Master-Slave (Replica Sets)	
+Fault Tolerance
+    => Replica sets and sharding	
+CAP Theoram
+    => CP (Consistency and Partition tolerance)	
+Consistency
+    => Strong consistency by default	
+Read Write 
+    => Balanced read-write workloads	
+Use 
+    => Your workload is read-heavy or balanced
+
+When to use 
+1. Schema Flexibility
+    => Your data model evolves frequently (e.g., startups, prototyping).
+    => Different documents in a collection can have different fields.
+2. Document-Oriented Data
+    => Your data fits naturally as JSON-like documents (BSON).
+    => You need to store nested objects, arrays, and hierarchical structures.
+3. High Write Throughput & Performance
+    => You need high write speed with horizontal scaling.
+    => You prefer eventual consistency over strict ACID guarantees.
+4. Horizontal Scalability
+    => You expect big data volumes and want to scale easily.
+    => You want automatic sharding to distribute data across nodes.
+
+When Not to Use MongoDB
+ou need multi-row ACID transactions across collections.
+You rely on complex joins and relational integrity.
+You’re doing heavy aggregations over massive structured datasets (better suited to SQL or columnar stores).
+You need real-time analytics (consider Apache Druid, ClickHouse, or BigQuery instead).
+
+
+
