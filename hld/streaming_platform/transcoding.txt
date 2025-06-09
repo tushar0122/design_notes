@@ -1,2 +1,4 @@
 To convert into different formats 
     => To support different devices, different resolution
+
+Netflix do a lot of  preprocessing while onboarding the videos 
