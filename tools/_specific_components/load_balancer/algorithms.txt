@@ -1,11 +1,1 @@
 Round Robin
-    => Round Robin is a simple, classic load balancing algorithm where incoming requests are distributed sequentially across a pool of backend servers. It’s like taking turns — server A, then B, then C, then back to A.
-
-Weighted Round Robin
-    => Assigns a weight to each server.
-    => More powerful servers get more requests.
-    => E.g., Server A (weight 2), Server B (weight 1):
-    → A, A, B, A, A, B...
-
-Dynamic Round Robin
-    => Adjusts weights in real-time based on performance or health metrics.
