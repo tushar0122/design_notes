@@ -1,0 +1,9 @@
+Zones first 
+    then across instances 
+
+Two tier balancing scheme 
+    1st 
+        => DNS based round routing schemes 
+
+Zones 
+    => Logical way of grouping servers 
