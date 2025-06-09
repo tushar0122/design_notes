@@ -1,0 +1,2 @@
+It is one of CDN, it is used by Netflix
+Netflix owns this CDN
