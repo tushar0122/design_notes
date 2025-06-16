@@ -1,0 +1,15 @@
+BigQuery
+    => Complex Reads 
+    => Faster Reads 
+    => Batch Writes 
+    => Not for real time writes/updates 
+
+Cassandra
+    => Not for complex reads, read as per design
+    => Faster writes 
+    => Real time writes 
+    => Not for frequent updates 
+
+SQL
+    => Complex Reads 
+    => 
