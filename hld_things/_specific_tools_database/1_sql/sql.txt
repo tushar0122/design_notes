@@ -1,4 +1,8 @@
 SQL
+    => Focus 
+        => Data Integrity, Relations
+    => Design Approach
+        => Data normalization	
     => Schema 
         => Strict schema (all rows follow same structure)	
         => Tables with rows and fixed columns	
@@ -19,8 +23,8 @@ SQL
 
 Self Managed
     => Scalability
-        => Horizontal Scaling Mechanism
-            => Manual sharding or read replicas
+        => Vertical Scaling
+        => Limited Horizontal Scaling
     => Replication
         Master-slave or single-node	
         Update in-place	

@@ -1,13 +1,19 @@
 Cassandra
+    => Focus 
+        => High availability, fast writes, scalability
+    => Design Approach
+        => Query-first, denormalized
     => Schema
         => Wide-column store (table-like with flexible columns)
         => Schema required for tables
+    => Querying 
+        => No Joins 
 
-Keyspaces with column families (tables)
-SQL-like but limited JOINs/aggregations
-
-Architecture
-    => Masterless (Peer-to-Peer)
+Self Managed
+    => Scalability
+        => Horizontally Scalable
+    => Architecture
+        => Masterless (Peer-to-Peer)
 
 Fault Tolerance
     => High availability by design
