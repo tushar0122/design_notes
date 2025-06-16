@@ -10,6 +10,12 @@ Cassandra
     => Real time writes 
     => Not for frequent updates 
 
+MongoDB 
+    => Read 
+    => Write 
+    => Update
+
 SQL
     => Complex Reads 
-    => 
+    => Write 
+    => Update
