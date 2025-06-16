@@ -1,4 +1,6 @@
 MongoDB
+    => Data Structure 
+        => Collections, documents, fields 
     => Schema 
         => BSON (Binary JSON)
         => Schema less (No schema needed any json can be entered)

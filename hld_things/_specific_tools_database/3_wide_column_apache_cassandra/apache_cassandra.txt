@@ -1,4 +1,6 @@
 Cassandra
+    => Data Structure 
+        => Tables, rows, Partitions, Clustering keys 
     => Schema
         => Wide-column store (table-like with flexible columns)
         => Semi structured
@@ -9,18 +11,14 @@ Cassandra
     => Querying 
         => No Joins 
     => Usecase 
-        => Not for complex joins
-
-=> Data Structure 
-    => Tables, rows, Partitions, Clustering keys 
- 
-=> Focus 
-    => High availability, fast writes, scalability
-=> Design Approach
-    => Query-first, denormalized
+        => Not for complex joins 
 
 Self Managed
     => Scalability
         => Horizontally Scalable
     => Architecture
         => Masterless (Peer-to-Peer)
+    => Focus 
+        => High availability, fast writes, scalability
+    => Design Approach
+        => Query-first, denormalized
