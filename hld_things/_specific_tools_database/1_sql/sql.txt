@@ -1,0 +1,23 @@
+SQL
+    => Schema 
+        => Strict schema (all rows follow same structure)	
+        => Tables with rows and fixed columns	
+        => Highly normalized data	
+    => Query 
+        Supports joins and foreign keys	
+    => Transaction
+        => Strong consistency (ACID compliant)	
+    => Performance
+        => Read Performance
+            => Fast with proper indexing	
+        => Write Performance	
+            => Moderate (depends on indexing, constraints)
+
+Self Managed 
+    => Horizontal Scaling Mechanism
+        => Manual sharding or read replicas
+
+Master-slave or single-node	
+Update in-place	
+Data Distribution
+    => Application-level or middleware-driven	

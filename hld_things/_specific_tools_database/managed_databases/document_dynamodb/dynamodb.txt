@@ -1,0 +1,24 @@
+NoSQL Database 
+    => Schema 
+        => Schema less (flexible fields)
+    => Querying 
+        => No joins, denormalized data 
+
+Document Database 
+    => Store in the form Json 
+
+
+Fully Managed Database
+    => Scalability 
+        => Auto Scaling
+        => Horizontally Scalable
+    => Availability 
+        => High Availability (Multi Region Supported)
+    => Pricing 
+        => Pay per read/write
+        => 
+    => Performance 
+        => Millisecond latency at scale
+
+Use case 
+    => 
