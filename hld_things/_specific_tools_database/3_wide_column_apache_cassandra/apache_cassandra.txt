@@ -12,8 +12,11 @@ Cassandra
         => CQL Language is used 
         => Adhoc query not supported (Only filtering in primary keys and indexed column possible, Must design your table specifically for the queries to run)
         => No Joins 
+    => Performance
+        => 
     => Usecase 
         => Not for complex joins 
+        => Your app is write-heavy (e.g. logs, metrics)
 
 Self Managed
     => Scalability
@@ -27,3 +30,12 @@ Self Managed
         => High availability, fast writes, scalability
     => Design Approach
         => Query-first, denormalized
+    => Internal Working
+        => Write 
+            => It doesn’t update existing rows on disk — it appends new data.
+        => Read 
+            => 
+    
+Advantages & Why 
+    => Faster Read 
+        => It is append only sequentially, immutable
