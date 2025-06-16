@@ -1,0 +1,14 @@
+BigQuery 
+    => Schema 
+    => Query 
+    => Performance 
+    => Usecase 
+
+Fully Managed 
+    => Scalability
+    => Fault Tolerance
+
+Advantages Why ?
+
+
+Disadvantages Why ?
