@@ -1,3 +1,14 @@
+Elasticsearch
+    => Schema
+    => Query 
+    => Transaction
+    => Performance
+    => Usecase
+
+Self Managed 
+    => Scalability 
+    => 
+
 When to use 
 1. You should use Elasticsearch when you need fast, full-text search, real-time analytics, or log/event data exploration over large volumes of semi-structured or unstructured data.
     => You need to search text fields with features like:
