@@ -1,7 +1,9 @@
 Cassandra
-Wide-column store (table-like with flexible columns)
+    => Schema
+        => Wide-column store (table-like with flexible columns)
+        => Schema required for tables
+
 Keyspaces with column families (tables)
-Schema required for tables
 SQL-like but limited JOINs/aggregations
 
 Architecture

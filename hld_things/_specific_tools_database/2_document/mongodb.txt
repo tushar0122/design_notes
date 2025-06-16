@@ -12,3 +12,7 @@ MongoDB
         => Not to use for complex joins 
         => Not when need strong acid compliance
         => Not when schema is fixed and relational
+
+
+Guidelines for use 
+    => Have definite schema validation, even though we can insert any json.

@@ -20,6 +20,6 @@ Fully Managed Database
         => 
     => Performance 
         => Millisecond latency at scale
-
-Use case 
-    => 
+        
+Guidelines for use 
+    => Have definite schema validation, even though we can insert any json.
