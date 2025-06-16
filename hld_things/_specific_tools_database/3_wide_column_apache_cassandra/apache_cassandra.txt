@@ -1,8 +1,4 @@
 Cassandra
-    => Focus 
-        => High availability, fast writes, scalability
-    => Design Approach
-        => Query-first, denormalized
     => Schema
         => Wide-column store (table-like with flexible columns)
         => Semi structured
@@ -12,64 +8,19 @@ Cassandra
         => Each row can have different set of columns 
     => Querying 
         => No Joins 
+    => Usecase 
+        => Not for complex joins
+
+=> Data Structure 
+    => Tables, rows, Partitions, Clustering keys 
+ 
+=> Focus 
+    => High availability, fast writes, scalability
+=> Design Approach
+    => Query-first, denormalized
 
 Self Managed
     => Scalability
         => Horizontally Scalable
     => Architecture
         => Masterless (Peer-to-Peer)
-
-Fault Tolerance
-    => High availability by design
-
-CAP Theoram
-    => AP (Availability and Partition tolerance)
-
-Consistency
-    => Tunable consistency (eventual by default)
-
-Read Write 
-    => Optimized for heavy write workloads
-
-Use 
-    => You need high availability and fault tolerance
-
-When to use 
-1. High Write Throughput Applications
-2. Need for Horizontal Scalability
-3. Distributed Systems / Multi-Region Setup
-    => Supports multi-datacenter replication with low-latency reads and writes in each region.
-4. High Availability / Fault Tolerance
-    => If your app can’t afford downtime, Cassandra’s masterless architecture ensures there's no single point of failure.
-5. Eventual Consistency is Acceptable
-    => Suitable for use cases where strict consistency is not mandatory, and eventual consistency is good enough (can be tuned if needed).
-6. Time-Series or Append-Only Workloads
-    => Cassandra excels at storing append-only data like logs, metrics, telemetry, or IoT data, where updates are rare and data grows over time.
-
-
-When NOT to Use Cassandra
-1. Complex queries with joins, aggregations, or multi-row transactions	
-    => Cassandra lacks support for joins and complex ACID transactions
-2. Strong consistency or referential integrity is critical	
-    => Better to use RDBMS or strongly consistent NoSQL stores like MongoDB (with transactions)
-3. Small-scale apps with minimal data	
-    => Might be overkill—adds operational complexity
-4. Real-time analytics or ad-hoc queries	
-    => Tools like BigQuery, Druid, or Elasticsearch are more optimized for this
-
-Features
-Wide-column, dynamic columns per row
-Tables with rows, but columns can be dynamic
-Schema per table, but rows can have varying columns
-No joins, no foreign keys
-Encourages denormalization for performance
-Peer-to-peer, masterless
-Append-only (writes to memtable + commit log)
-Eventual consistency (tunable per request)
-Write performance
-    => Very high, due to append-only model
-Horizontal Scaling Mechanism
-    => Automatic partitioning & replication
-Data Distribution 
-    => Built-in, consistent hashing
-
