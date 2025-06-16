@@ -44,3 +44,6 @@ Advantages & Why
 Disadvantages & Why 
     => Not for frequent updates 
         => It is append only database, memory piles up
+
+Alternative Fully Managed 
+    => Amazon KeySpaces
