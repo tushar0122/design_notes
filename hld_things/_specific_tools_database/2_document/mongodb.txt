@@ -1,7 +1,7 @@
 MongoDB
     => Schema 
         => BSON (Binary JSON)
-        => Flexible Schema
+        => Schema less (No schema needed any json can be entered)
     => Querying 
         => Limited Joins, Aggregation Framework
     => Transaction

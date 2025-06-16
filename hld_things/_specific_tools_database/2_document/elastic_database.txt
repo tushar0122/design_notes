@@ -1,9 +1,14 @@
 Elasticsearch
     => Schema
-    => Query 
+        => 
+    => Query
+        =>  
     => Transaction
+        => 
     => Performance
+        => 
     => Usecase
+        => Not good for strong consitency and joins
 
 Self Managed 
     => Scalability 

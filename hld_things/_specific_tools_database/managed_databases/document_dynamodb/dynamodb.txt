@@ -1,7 +1,7 @@
 NoSQL Database 
     => Schema 
         => Document Database
-        => Schema less (flexible fields)
+        => Schema less (No schema needed any json can be entered)
     => Querying 
         => No joins, denormalized data 
     => Transactions
