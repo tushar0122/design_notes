@@ -6,6 +6,9 @@ Cassandra
     => Schema
         => Wide-column store (table-like with flexible columns)
         => Schema required for tables
+        => Primary Key = Partitioning Key + Clustering Key
+        => Column Addition doesn't require schema change, directly insert new column
+        => Each row can have different set of columns 
     => Querying 
         => No Joins 
 
