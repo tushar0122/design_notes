@@ -1,0 +1,14 @@
+MongoDB
+    => Schema 
+        => BSON (Binary JSON)
+        => Flexible Schema
+    => Querying 
+        => Limited Joins, Aggregation Framework
+    => Transaction
+        => Limited But Available
+    => Performance
+        => Faster for unstructured data
+    => Usecase
+        => Not to use for complex joins 
+        => Not when need strong acid compliance
+        => Not when schema is fixed and relational

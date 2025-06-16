@@ -1,12 +1,13 @@
 NoSQL Database 
     => Schema 
+        => Document Database
         => Schema less (flexible fields)
     => Querying 
         => No joins, denormalized data 
-
-Document Database 
-    => Store in the form Json 
-
+    => Transactions
+        => 
+    => Usecase
+        => Not for complex joins 
 
 Fully Managed Database
     => Scalability 

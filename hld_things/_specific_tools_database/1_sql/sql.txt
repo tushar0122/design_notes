@@ -12,6 +12,10 @@ SQL
             => Fast with proper indexing	
         => Write Performance	
             => Moderate (depends on indexing, constraints)
+    => Usecase
+        => Complex query, joins, integrity
+        => Structured schema, joins, ACID Transaction
+        => Not Good For Horizontal Scaling
 
 Self Managed
     => Scalability
