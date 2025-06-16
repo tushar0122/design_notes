@@ -1,14 +1,41 @@
 BigQuery 
     => Schema 
+        => Rigid schema (structured data)    
+        => Harder (requires changes to table structure)
     => Query 
-    => Performance 
+        => Complexy query aggregation
+    => Performance
+    => Data Structure
+        => Mostly tabular (tables with rows and columns) 
     => Usecase 
 
 Fully Managed 
     => Scalability
     => Fault Tolerance
+    => Purpose 
+        => Analytics and reporting on large datasets
+        => OLAP (Online Analytical Processing)
+    => Data Storage 
+        => Most modern data warehouses (e.g., BigQuery, Redshift, Snowflake) use columnar storage instead of row-based storage.
+        => Writing data into a columnar format requires reorganizing and compressing each column independently, which adds overhead.
+    => Internal 
 
 Advantages Why ?
+Faster Reads 
+    => Data is stored column-wise instead of row-wise.
+    => Queries often only need a few columns, not the whole row.
+    => Reduces I/O by reading only the relevant columns.
+    => Enables better compression, because values in the same column are similar
+    => Data is sharded across multiple nodes.
+    => Queries are executed in parallel across nodes or CPUs.
+    => Each node scans only a portion of the data—reducing response time dramatically.
 
 
 Disadvantages Why ?
+Poor Write 
+    => Designed for Batch Writes Not for real time writes and heavy reads 
+
+Guidelines to use 
+    => Fast reads 
+    => Batch Writes
+    => Not real time writes
