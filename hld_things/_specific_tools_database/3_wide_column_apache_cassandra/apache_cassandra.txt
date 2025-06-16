@@ -17,6 +17,7 @@ Cassandra
     => Usecase 
         => Not for complex joins 
         => Your app is write-heavy (e.g. logs, metrics)
+        => Not for frequent Updates
 
 Self Managed
     => Scalability
@@ -39,3 +40,7 @@ Self Managed
 Advantages & Why 
     => Faster Read 
         => It is append only sequentially, immutable
+
+Disadvantages & Why 
+    => Not for frequent updates 
+        => It is append only database, memory piles up
