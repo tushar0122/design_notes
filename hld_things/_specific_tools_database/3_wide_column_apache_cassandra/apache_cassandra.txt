@@ -5,6 +5,7 @@ Cassandra
         => Query-first, denormalized
     => Schema
         => Wide-column store (table-like with flexible columns)
+        => Semi structured
         => Schema required for tables
         => Primary Key = Partitioning Key + Clustering Key
         => Column Addition doesn't require schema change, directly insert new column
