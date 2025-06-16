@@ -9,6 +9,8 @@ Cassandra
         => Column Addition doesn't require schema change, directly insert new column
         => Each row can have different set of columns 
     => Querying 
+        => CQL Language is used 
+        => Adhoc query not supported (Only filtering in primary keys and indexed column possible, Must design your table specifically for the queries to run)
         => No Joins 
     => Usecase 
         => Not for complex joins 
@@ -16,8 +18,11 @@ Cassandra
 Self Managed
     => Scalability
         => Horizontally Scalable
+            => Sharding Native, Seamless Easy
     => Architecture
         => Masterless (Peer-to-Peer)
+    => Fault Tolerance 
+        => 	Very high — no single point of failure
     => Focus 
         => High availability, fast writes, scalability
     => Design Approach

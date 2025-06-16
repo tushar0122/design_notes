@@ -5,6 +5,8 @@ MongoDB
         => BSON (Binary JSON)
         => Schema less (No schema needed any json can be entered)
     => Querying 
+        => MongoDB Query Language 
+        => Adhoc query supported 
         => Limited Joins, Aggregation Framework
     => Transaction
         => Limited But Available
@@ -15,6 +17,12 @@ MongoDB
         => Not when need strong acid compliance
         => Not when schema is fixed and relational
 
+Self Managed
+    => Scalability
+        => Horizontal Scalability
+            => Sharding supported, but complex
+    => Architecture
+        => Master-Slave Architecture
 
 Guidelines for use 
     => Have definite schema validation, even though we can insert any json.
