@@ -13,11 +13,12 @@ SQL
         => Write Performance	
             => Moderate (depends on indexing, constraints)
 
-Self Managed 
-    => Horizontal Scaling Mechanism
-        => Manual sharding or read replicas
-
-Master-slave or single-node	
-Update in-place	
-Data Distribution
-    => Application-level or middleware-driven	
+Self Managed
+    => Scalability
+        => Horizontal Scaling Mechanism
+            => Manual sharding or read replicas
+    => Replication
+        Master-slave or single-node	
+        Update in-place	
+        Data Distribution
+            => Application-level or middleware-driven	
