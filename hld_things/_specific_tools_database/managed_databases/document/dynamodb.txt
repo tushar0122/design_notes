@@ -4,8 +4,6 @@ NoSQL Database
         => Schema less (No schema needed any json can be entered)
     => Querying 
         => No joins, denormalized data 
-    => Transactions
-        => 
     => Usecase
         => Not for complex joins 
 
@@ -20,6 +18,10 @@ Fully Managed Database
         => 
     => Performance 
         => Millisecond latency at scale
-        
+
+Internal 
+    => Transactions
+        => 
+
 Guidelines for use 
     => Have definite schema validation, even though we can insert any json.

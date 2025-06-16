@@ -10,13 +10,19 @@ Cassandra
     => Real time writes 
     => Not for frequent updates 
 
+Dynamodb 
+    => Not for complex reads
+    => Fully Managed 
+
 MongoDB 
-    => Read 
+    => Complex Read 
     => Write 
     => Update
+    => Horizontally Scalable 
 
 SQL
-    => Complex Reads 
+    => Very Complex Reads 
     => Write 
     => Update
+    => Complex For Horizontally Scalable
     => Strong Consistency
