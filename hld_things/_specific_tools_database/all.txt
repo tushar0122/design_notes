@@ -19,3 +19,4 @@ SQL
     => Complex Reads 
     => Write 
     => Update
+    => Strong Consistency
